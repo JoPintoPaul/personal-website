@@ -1,0 +1,11 @@
+{
+  "name": "personal-website-personal",
+  "version": "1.0.0",
+  "description": "Personal static website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jo Pinto Paul",
+  "license": "ISC"
+}
