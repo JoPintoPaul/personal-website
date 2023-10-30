@@ -1,0 +1,10 @@
+.*
+!.gitignore
+.cache
+dist
+.idea
+/.idea_modules
+.idea_modules
+bin
+!.nvmrc
+node_module

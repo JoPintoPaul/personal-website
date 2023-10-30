@@ -4,8 +4,20 @@
   "description": "Personal static website",
   "main": "index.js",
   "scripts": {
+    "build:css": "npm run css:scss && npm run css:autoprefixer",
+    "css:autoprefixer": "postcss -u autoprefixer -r dist/*.css",
+    "css:scss": "node-sass --output-style compressed -o dist src/scss",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jo Pinto Paul",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss-cli": "^10.1.0",
+    "postcss-scss": "^4.0.9",
+    "stylelint": "^15.11.0"
+  }
 }
